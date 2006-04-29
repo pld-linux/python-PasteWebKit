@@ -1,5 +1,6 @@
 %define		module PasteWebKit
 Summary:	A port/reimplementation of Webware WebKit in WSGI and Paste
+Summary(pl):	Port/reimplementacja WebKitu Webware w WSGI i Paste
 Name:		python-%{module}
 Version:	0.9
 Release:	1
@@ -24,6 +25,14 @@ the functionality, and just providing an API wrapper.
 While the basic layout of applications is different from what
 Webware's MakeAppWorkDir creates, this is intended to be backward
 compatible for most typical Webware applications.
+
+%description -l pl
+To jest reimplementacja API Webware przy u¿yciu Paste dla wiêkszo¶ci
+funkcjonalno¶ci, z udostêpnieniem zwyk³ego obudowania API.
+
+O ile podstawowy wygl±d aplikacji jest ró¿ny od tworzonego przez
+MakeAppWorkDir w Webware, powinien byæ wstecznie kompatybilny z
+wiêkszo¶ci± typowych aplikacji Webware.
 
 %prep
 %setup -q -n %{module}-%{version}
