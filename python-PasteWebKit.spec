@@ -2,12 +2,12 @@
 Summary:	A port/reimplementation of Webware WebKit in WSGI and Paste
 Summary(pl):	Port/reimplementacja WebKitu Webware w WSGI i Paste
 Name:		python-%{module}
-Version:	0.9
+Version:	1.0
 Release:	1
 Group:		Development/Languages/Python
 License:	X11/MIT
 Source0: 	http://cheeseshop.python.org/packages/source/P/PasteWebKit/%{module}-%{version}.tar.gz
-# Source0-md5:	73381dab3b895f8d3f1bcd1ccc7f09dc
+# Source0-md5:	3f06815a43eebf4672143b4e29021a57
 URL:		http://pythonpaste.org/webkit/
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
