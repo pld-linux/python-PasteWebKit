@@ -1,6 +1,6 @@
 %define		module PasteWebKit
 Summary:	A port/reimplementation of Webware WebKit in WSGI and Paste
-Summary(pl.UTF-8):   Port/reimplementacja WebKitu Webware w WSGI i Paste
+Summary(pl.UTF-8):	Port/reimplementacja WebKitu Webware w WSGI i Paste
 Name:		python-%{module}
 Version:	1.0
 Release:	1
