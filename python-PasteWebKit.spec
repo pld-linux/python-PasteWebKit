@@ -9,6 +9,7 @@ License:	X11/MIT
 Source0: 	http://cheeseshop.python.org/packages/source/P/PasteWebKit/%{module}-%{version}.tar.gz
 # Source0-md5:	3f06815a43eebf4672143b4e29021a57
 URL:		http://pythonpaste.org/webkit/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	python-devel
 BuildRequires:	python-setuptools >= 0.6-0.a9.1
 %pyrequires_eq	python-modules
